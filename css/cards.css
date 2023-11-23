@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    /* font-family: 'Times New Roman', Times, serif; */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.col {
+    width: 25%;
+    float: left;
+    /* background: gray; */
+    padding: 0 10px;
+}
+
+.card {
+    background: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+    border-radius: 5px;
+}
+
+.row::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .col {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .col {
+        width: 100%;
+    }
+    
+}

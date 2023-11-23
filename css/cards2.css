@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.row {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.col {
+    padding: 0 15px;
+}
+
+.card {
+    border: 2px solid #222;
+    border-radius: 5px;
+    color: #222;
+    text-align: center;
+    padding: 20px 15px;
+    transition:  all 0.25s ease-in;
+}
+
+.card i {
+    font-size: 70px;
+    margin: 15px 0;
+}
+
+.card h2 {
+    text-transform: uppercase;
+}
+
+.card p {
+    line-height: 1.5;
+}
+
+.card a {
+    display: block;
+    background: #222;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    transition:  all 0.25s ease-in;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+}
+
+.card.twitter:hover {
+    background: #00ACEE;
+    color: white;
+    border-color: #00ACEE;
+}
+
+.card.twitter:hover a{
+    background: white;
+    color:#00ACEE;
+}
+
+.card.instagram:hover {
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    border-color: #833ab4;
+    color: #fff;
+}
+
+.card.instagram:hover a{
+    background:#fff;
+    color: #833ab4;
+}
+
+.card.youtube:hover {
+    background: #FF0000;
+    color: white;
+    border-color: #FF0000;
+}
+
+.card.youtube:hover a{
+    background: white;
+    color:#FF0000;
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .row .card {
+        margin-bottom: 15px;
+    }
+    
+}

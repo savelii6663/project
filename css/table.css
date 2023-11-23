@@ -1,0 +1,33 @@
+
+
+.table {
+    width: 500px;
+    border-collapse: collapse;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.table td, .table th {
+    border: 1px solid gainsboro;
+    padding: 5px 10px;
+    
+    /*padding: 10px;/* Все 4 стороны 
+    padding: 10px 20px; /*10px сверху, снизу. 20px слева справа
+    padding: 10px 20px 30px; /*10 сверху 20 слева, справа 30 снизу
+    padding: 10px 20px 30px 40px; /*10 сверху 20 справа 30 снизу 40 слева*/
+
+}
+
+/* .table th {
+    border: 1px solid gainsboro;
+} */
+
+.table thead {
+    background-color: #f0f1f4;
+}
+
+.table tfoot {
+    background-color: #121212;
+    color: white;
+    text-align: right;
+}
+

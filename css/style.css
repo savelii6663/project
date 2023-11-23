@@ -1,0 +1,18 @@
+body {
+    font-family: 'Arial';
+}
+
+.title {
+    color: red;
+    text-transform: uppercase;
+}
+
+.sub-title{
+    color: green;
+    text-decoration: underline;
+}
+
+.custom-list{
+    list-style-type: square;
+    font-style: italic;
+}

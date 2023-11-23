@@ -1,0 +1,28 @@
+
+
+.person h2 {
+    background-color: aquamarine;
+    font-size: 18px;
+    
+}
+
+.person .img {
+    width: 20%;
+    border: 1px solid black;
+    float: left;
+    margin-right: 20px;
+}
+
+.person .img img {
+    width: 100%;
+}
+
+.person .img_descriptor {
+    text-align: center;
+}
+
+.person::after {
+    content: '';
+    display: block;
+    clear: both;
+}

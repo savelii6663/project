@@ -1,0 +1,29 @@
+body {
+    /* Здесь добавляем из гугл фонтс */
+    font-family: 'Oswald', sans-serif;
+}
+
+.img {
+    width: 100px;
+    /* height: 100px; */
+}
+
+.p-fluid {
+    min-height: 50px;
+    /* max-height: 100px; */
+    
+    width: 300px;
+    max-width: 200px;
+    
+    border: 2px solid red;
+}
+
+.container {
+    width: 100%;
+    border: 2px solid black; 
+}
+
+.el-60 {
+    background-color: purple;
+    width: 60%;
+}

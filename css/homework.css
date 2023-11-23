@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    width: 768px;
+    display: flex;
+    border: 8px solid #f1f1f1;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+}
+
+.header {
+    width: 30%;
+    background: rgb(190, 93, 93);
+    padding: 30px 30px;
+    text-align: left;
+    color: white;
+}
+
+.header h2 {
+
+    margin-bottom: 50px;
+
+}
+
+.header p {
+    text-transform: uppercase;
+
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.main {
+    width: 70%;
+    padding: 30px 30px;
+    text-align: left;
+}
+
+.main p {
+    text-transform: uppercase;
+}
+
+.main h2 {
+    margin-bottom: 100px;
+}
+
+
+.main .btn {
+    position: relative;
+}
+
+.main button {
+    background: rgb(190, 93, 93);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.25);
+    color: white;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    border: none;
+    width: 120px;
+    height: 35px;
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .main button {
+        left: 0;
+    }
+
+
+    
+}

@@ -1,0 +1,26 @@
+.bg-gray {
+    background-color: #f8f8f8;
+}
+
+.form-registration {
+    background-color: white;
+    padding: 15px;
+    width: 320px;
+}
+
+.form-registration input {
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.form-registration input[type="submit"] {
+    background-color: #1cbc11;
+    color: white;
+    border-color: #1cbc11;
+}
+
+
