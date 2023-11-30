@@ -1,0 +1,30 @@
+.cart {
+  position: relative;
+  margin-right: 10px;
+}
+
+.count-items {
+  position: absolute;
+  top: -7px;
+  right: -13px;
+  width: 20px;
+  height: 20px;
+  background: blueviolet;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+}
+
+.total-amount::after {
+  content: ' р.';
+}
+
+.card-price {
+  display: block;
+  font-weight: bold;
+}
+
+.card-price::after {
+  content: ' р.';
+}
